@@ -1,6 +1,4 @@
-random_letter <-
-function(alphabet){
-  letter <- sample(alphabet, size = 1)
-  letter
+random_letter <- function(i){
+  letter <- sample(LETTERS, size = 1)
   return(letter)
 }
